@@ -1,8 +1,9 @@
 from telegram.ext import Updater,CommandHandler,CallbackContext,MessageHandler,Filters,CallbackQueryHandler
 from telegram import Update,ReplyKeyboardMarkup,KeyboardButton,InlineKeyboardMarkup,InlineKeyboardButton
 from db import DB
+import os
 import requests
-db = DB('db.json')
+db = DB('Ob-havoBot/db.json')
 
 def ob_havo(city):
     basic_url = db.city(city)
@@ -70,7 +71,7 @@ def back_handler(update:Update,context:CallbackContext):
             )
 
 def main():
-    Token = "6039416846:AAFcl3LxsN9Kv5XgF8eEOu6JXyGNSN_RnrU"
+    Token = os.environ['TOKEN']
     updater = Updater(Token)
     updater.dispatcher.add_handler(CommandHandler('start',start))
     updater.dispatcher.add_handler(CallbackQueryHandler(inline_hanlerlar,pattern='shahar'))
