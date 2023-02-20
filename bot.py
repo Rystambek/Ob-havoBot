@@ -4,6 +4,7 @@ from db import DB
 import os
 import requests
 db = DB('Ob-havoBot/db.json')
+Token = os.environ['TOKEN']
 
 def ob_havo(city):
     basic_url = db.city(city)
@@ -71,7 +72,7 @@ def back_handler(update:Update,context:CallbackContext):
             )
 
 def main():
-    Token = os.environ['TOKEN']
+    
     updater = Updater(Token)
     updater.dispatcher.add_handler(CommandHandler('start',start))
     updater.dispatcher.add_handler(CallbackQueryHandler(inline_hanlerlar,pattern='shahar'))
