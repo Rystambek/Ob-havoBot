@@ -44,4 +44,5 @@ def main():
         return {'status': 200}
 
 bot = Bot(token=TOKEN)
+# print(bot.set_webhook("https://rustambek2003.pythonanywhere.com/"))
 print(bot.get_webhook_info())
