@@ -1,0 +1,17 @@
+{
+    "city":{
+        "Toshkent":"https://api.openweathermap.org/data/2.5/weather?q=Tashkent&appid=d9a3edbca82032cc0414c9e4f5d7e112",
+        "Samarqand":"https://api.openweathermap.org/data/2.5/weather?q=Samarqand&appid=d9a3edbca82032cc0414c9e4f5d7e112",
+        "Navoiy":"https://api.openweathermap.org/data/2.5/weather?q=Navoiy&appid=d9a3edbca82032cc0414c9e4f5d7e112",
+        "Buxoro":"https://api.openweathermap.org/data/2.5/weather?q=Buxoro&appid=d9a3edbca82032cc0414c9e4f5d7e112",
+        "Xorazm":"https://api.openweathermap.org/data/2.5/weather?q=Xorazm&appid=d9a3edbca82032cc0414c9e4f5d7e112",
+        "Qoraqalpoq":"https://api.openweathermap.org/data/2.5/weather?q=Qoraqalpoq&appid=d9a3edbca82032cc0414c9e4f5d7e112",
+        "Jizzax":"https://api.openweathermap.org/data/2.5/weather?q=Jizzax&appid=d9a3edbca82032cc0414c9e4f5d7e112",
+        "Surqandaryo":"https://api.openweathermap.org/data/2.5/weather?q=Surqandaryo&appid=d9a3edbca82032cc0414c9e4f5d7e112",
+        "Qashqadaryo":"https://api.openweathermap.org/data/2.5/weather?q=Qashqadaryo&appid=d9a3edbca82032cc0414c9e4f5d7e112",
+        "Farg'ona":"https://api.openweathermap.org/data/2.5/weather?q=Farg'ona&appid=d9a3edbca82032cc0414c9e4f5d7e112",
+        "Namangan":"https://api.openweathermap.org/data/2.5/weather?q=Namangan&appid=d9a3edbca82032cc0414c9e4f5d7e112",
+        "Andijon":"https://api.openweathermap.org/data/2.5/weather?q=Andijon&appid=d9a3edbca82032cc0414c9e4f5d7e112",
+        "Sirdaryo":"https://api.openweathermap.org/data/2.5/weather?q=Sirdaryo&appid=d9a3edbca82032cc0414c9e4f5d7e112"
+    }
+}
